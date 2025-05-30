@@ -14,18 +14,24 @@ button,
     color: #f9faf8;
 }
 
+a,
+.intro {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
 }
 
-header {
+header,
+footer {
     background-color: #1f2937;
 }
 
 a {
     text-decoration: none;
-
 }
 
 button {
