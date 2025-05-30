@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto';
+    background-image: url(images/cheese-6377657.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a,
+h1,
+button,
+.intro {
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+button {
+    background-color: #3882f6;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900px;
+}
+
+q {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
