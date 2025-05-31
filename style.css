@@ -1,12 +1,13 @@
 body {
     font-family: 'Roboto';
-    background-image: url(images/cheese-6377657.jpg);
+    /* background-image: url(images/cheese-6377657.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain; */
     display: flex;
     flex-direction: column;
     margin: 0;
     text-align: center;
+    width: fit-content;
 }
 
 a,
@@ -30,18 +31,13 @@ h1 {
 header,
 footer {
     background-color: #1f2937;
-    display: flex;
-}
-
-header {
+    color: #e5e7eb;
     display: flex;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
 }
 
-.right-links {
-}
 a {
     text-decoration: none;
     padding: 10px;
@@ -58,6 +54,8 @@ button {
 }
 
 h2 {
+    margin: 0;
+    background-color: #e5e7eb;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900px;
@@ -70,9 +68,6 @@ q {
     color: #1f2937;
 }
 
-header.container {
-    display: flex;
-}
 
 .card img {
     width: 500px;
@@ -82,10 +77,53 @@ header.container {
     border-radius: 50%;
 }
 
-footer {
-    height: 100px;
+.container.intro {
+    background-color: #1F2937;
+}
+
+.container.intro p {
+    color: #e5e7eb;
+    font-size: 24px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    width: 100vh;
+}
+
+.container.intro img {
+    border: #e5e7eb solid 5px;
+    border-radius: 10%;
+    align-self: flex-end;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: #1F2937 solid 5px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: #e5e7eb;
+}
+
+quote {
+    font-size: 36px;
+}
+
+
+.author {
+    font-size: 24px;
+    font-style: italic;
 }
