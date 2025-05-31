@@ -2,6 +2,9 @@
 
 The Odin Project practice exercise to make a basic landing page to practice HTML & CSS.
 
+## Objectives
+Use flex box for alignment and create a basic landing page to demonstrate comprehension of beginning HTML & CSS concepts.
+
 ## Images credits
 
 - **Clker-Free-Vector-Images** [Cheese Logo](https://pixabay.com/vectors/emmenthaler-cheese-emmenthal-cheese-297462/)
