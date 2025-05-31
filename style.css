@@ -2,20 +2,22 @@ body {
     font-family: 'Roboto';
     background-image: url(images/cheese-6377657.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    text-align: center;
 }
 
 a,
 h1,
-button,
 .intro {
     color: #f9faf8;
 }
 
 a,
-.intro {
+.intro,
+button {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -28,14 +30,31 @@ h1 {
 header,
 footer {
     background-color: #1f2937;
+    display: flex;
 }
 
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-links {
+}
 a {
     text-decoration: none;
+    padding: 10px;
+    text-decoration: underline #3882f6;
 }
 
 button {
     background-color: #3882f6;
+    border: #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: fit-content;
 }
 
 h2 {
@@ -49,4 +68,24 @@ q {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+
+header.container {
+    display: flex;
+}
+
+.card img {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: #1F2937 solid 5px;
+    border-radius: 50%;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
